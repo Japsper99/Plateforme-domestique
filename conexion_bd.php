@@ -8,6 +8,6 @@ try {
     $DB = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
     $DB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    die("La connexion a échoué : " . $e->getMessage());
+    die("La connexion a échoue : " . $e->getMessage());
 }
 ?>
