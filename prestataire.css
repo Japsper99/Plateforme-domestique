@@ -1,0 +1,293 @@
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    
+}
+.containerprincipal{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 1800px;
+  background-color: white;
+  align-items: center;
+
+}
+.lien{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin-top:2px;
+    border-radius: 10px;
+   
+}
+#lien1{
+    margin-top:50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size:19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    align-items:center;
+    padding-top: 20px;   
+}
+.entete{
+    width:98% ;
+    height: 80px;
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+}
+.photo{
+    display: flex;
+    width: 160px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.Ravi{
+    width:98% ;
+    height: 100px;
+    background-color: white;
+    border-radius: 18px;
+    margin-top: 55px; 
+    display: flex;
+    flex-direction: column;
+}
+.heureux{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700; 
+    font-size: 50px ; 
+    margin-left: 30px; 
+    margin-top: 5px; 
+    margin-bottom: 0;
+    letter-spacing: 2px;  
+}
+#avertissement{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 30px; 
+    color: rgba(0, 0, 0, 0.4); 
+    margin-top: 5px; 
+    font-size: 20px;
+}
+.projetsencours{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-top: 50px;
+}
+.titre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.pprojet{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+.projetstermine{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-top: 50px;
+}
+.liste{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.elemntliste{
+   display: flex;
+   flex-direction: column; 
+   width: 270px;
+   height: 320px;
+   background-color: white;
+   align-items: center;
+   border-radius: 10px;
+}
+.teliste{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 8px; 
+}
+.description{
+    background-color: rgba(212, 110, 255, 0.4);
+    width: 85%;
+    height: 160px;
+    border-radius: 10px;
+    margin: 0;
+}
+.date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;   
+}
+.boutton{
+    background-color: #D46EFF;
+    width: 70%;
+    height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#forumm{
+    letter-spacing: 0;
+    font-size: 45px ;
+    margin-top: 10px;
+}
+.espacemessage{ 
+    width: 100%;  
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.concerner{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.concerne{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0;
+    margin-left: 10px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+#nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color:rgba(255,255,255,0.3);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.partie{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: white; 
+}
+.spartie{
+    width: 50%;
+}
+.message{
+    background-color: #755e7f;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.annonce{
+    width: 98%;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.Chatbot{
+    background-color: rgba(0, 0, 0, 0.1);    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;  
+}
+#titrep{
+  margin-bottom: -15px;
+}
+.formulaireplainte{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+.formplainte{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rinput{
+    display: flex; 
+    flex-direction: column; 
+    width: 95%;
+    margin-top:25px;
+}
+.srinput{
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between; 
+    margin-top: 18px;
+}
+.champs{
+    display: flex; 
+    flex-direction: column; 
+    width: 48%    
+}
+label{
+    font-size: 17px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px; 
+}
+input{
+    border: none; 
+    width: 100%; 
+    height: 70px; 
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-top: 40px;
+    height: auto;
+}
+button{
+    background-color: #D46EFF;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ 
