@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost"; // Remplace par l'adresse de ton serveur
-$username = "root"; // Remplace par ton nom d'utilisateur
-$password = ""; // Remplace par ton mot de passe
-$dbname = "memoire_ipm"; // Remplace par le nom de ta base de données
+$username = "u924654367_root2"; // Remplace par ton nom d'utilisateur
+$password = "C4nd1d3xoxo"; // Remplace par ton mot de passe
+$dbname = "u924654367_sonco"; // Remplace par le nom de ta base de données
 
 try {
     $DB = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
